@@ -1,0 +1,67 @@
+@import "animate.css";
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+@media (min-width: 640px){
+  .sm\:p-0.stat-container {
+      padding: 0px;
+  }
+}
+.box{
+  min-height: 72vh;
+}
+.modal-box{
+  color: #333;
+  min-height: 20rem;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.box-shaw{
+  box-shadow: grey -5px 5px 80px 0px;
+}
+.line-remove span{
+  background: linear-gradient(to right, #ec695c, #61c454) no-repeat right bottom;
+  background-size: 0 2px;
+  transition: background-size 1300ms;
+}
+.line-remove span:hover{
+  background-position-x: left;
+  background-size: 100% 2px;
+}
+.App-header {
+  /* background-color: #282c34; */
+  background-color: #ccc;
+  min-height: 10vh;
+  /*  This means 10%  */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.active svg {
+  color: #316dd3 !important;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

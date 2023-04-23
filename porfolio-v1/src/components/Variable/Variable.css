@@ -1,0 +1,55 @@
+/* 通用样式 */
+.variable-number {
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: 100%;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 1.625;
+  letter-spacing: 0.00938em;
+  overflow-wrap: break-word;
+  color: rgb(132, 165, 222);
+  text-align: center;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.slogan {
+  font-size: 3rem;
+  font-weight: 700;
+  color: rgb(49, 109, 211);
+  text-align: center;
+}
+.Plus {
+  color: rgb(246, 219, 44);
+  font-size: 4rem;
+}
+/* 网格布局容器 */
+.grid-container {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 150px;
+  justify-content: center;
+}
+
+/* 统计数字容器 */
+.stat-container {
+  flex: 1 0 auto;
+  max-width: 25%;
+  padding: 80px;
+  box-sizing: border-box;
+}
+
+/* 统计数字标题 */
+.stat-title {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* 统计数字描述 */
+.stat-desc {
+  font-size: 2rem;
+}
